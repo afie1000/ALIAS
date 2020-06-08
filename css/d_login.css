@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Candara;
+}
+
+body {
+    background-image: url(../css/Assets/Template/BackgroundLogin.png);
+    background-size: cover;
+}
+
+.container {
+    width: 1366px;
+    height: 768px;
+}
+
+.logo {
+    width: 5%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.navBar {
+    color: #070027;
+    text-align: center;
+    padding-top: 15%;
+    margin-left: 40%;
+    width: 270px;
+    font-weight: bold;
+}
+
+.masuk {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 270px;
+    border: 2px solid #070027;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+}
+
+.textDidalam {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #070027;
+}
+
+form {
+    margin-top: auto;
+    margin-left: 34px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+input[type=submit] {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #070027;
+    background: #fff;
+    margin-top: 20px;
+    border: 2px solid #070027;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    color: #fff;
+    background: #070027;
+    box-shadow: 4px 4px 15px -4px rgba(7, 0, 39, 1);
+}

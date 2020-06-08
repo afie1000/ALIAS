@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Candara;
+}
+
+.logo {
+    width: 300px;
+    margin-top: 100px;
+    height: 90%;
+    float: right;
+    margin-right: 170px;
+    transition: transform .2s;
+    position: static;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background-image: url(../css/Assets/Template/BackgroundLogin.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: static;
+}
+
+.navBar {
+    padding-top: 270px;
+    margin-left: 540px;
+    text-align: center;
+}
+
+.navBar ul {
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+.navBar li {
+    display: inline;
+    padding: 10px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #00bfd2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.separator {
+    color: #070027;
+}
+
+.textDidalam {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #070027;
+}
+
+form {
+    margin-top: auto;
+    margin-left: 34px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+input[type=submit] {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #070027;
+    background: #fff;
+    margin-top: 20px;
+    border: 2px solid #070027;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    color: #fff;
+    background: #070027;
+    box-shadow: 4px 4px 15px -4px rgba(7, 0, 39, 1);
+}
+
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: -40px;
+}
+
+p a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #070027;
+    font-weight: bold;
+}
+
+.masuk {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 30%;
+    margin-left: 650px;
+    border: 2px solid #070027;
+    height: 10%;
+    width: 270px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+}
